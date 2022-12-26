@@ -16,6 +16,10 @@ Then, to install dependencies run:
 make install
 ```
 
+### Optional:
+
+`pre-commit` can be configured to be used as commit hook.
+
 ## Running local backend
 
 To run local backend execute:
