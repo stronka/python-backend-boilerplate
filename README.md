@@ -1,6 +1,7 @@
 # Python backend boilerplate
 
 Meant to be a bootstrap for setting up a micro backend without having to write all the tedious boilerplate.
+To start a new project simply clone the code and save yourself time of setting basics every time.
 
 ## Requirements
 
@@ -48,3 +49,7 @@ curl localhost:5000/hello
 
 - Flask
 - Pytest
+  - Pytest coverage
+  - Pytest factoryboy
+- Docker
+  - Postgres database
