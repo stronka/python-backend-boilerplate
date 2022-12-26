@@ -18,7 +18,17 @@ make install
 
 ### Optional:
 
-`pre-commit` can be configured to be used as commit hook.
+`pre-commit` can be configured to be used as commit hook. To install pre-commit, run:
+
+```commandline
+pip install pre-commit
+```
+
+Then, to initialize pre-commit for the repository, run:
+
+```commandline
+pre-commit install
+```
 
 ## Running local backend
 
@@ -38,3 +48,5 @@ curl localhost:5000/hello
 
 - Flask
 - Pytest
+
+- Locally

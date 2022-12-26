@@ -3,9 +3,6 @@ PYTHON=pdm run python
 install:
 	pdm sync
 
-install-pre-commit:
-	pre-commit install
-
 up:
 	$(PYTHON) app/main.py
 
