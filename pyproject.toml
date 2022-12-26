@@ -1,0 +1,20 @@
+[tool.pdm]
+[tool.pdm.dev-dependencies]
+dev = [
+    "pytest>=7.2.0",
+    "pytest-cov>=4.0.0",
+    "pytest-factoryboy>=2.5.1",
+]
+
+[project]
+name = ""
+version = ""
+description = ""
+authors = [
+    {name = "chrsec", email = "stronka.k@gmail.com"},
+]
+dependencies = [
+    "flask>=2.2.2",
+]
+requires-python = ">=3.11"
+license = {text = "MIT"}

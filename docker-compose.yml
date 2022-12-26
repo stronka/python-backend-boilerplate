@@ -1,0 +1,17 @@
+version: '3'
+
+
+services:
+    db:
+        image: postgres:9.6
+        environment:
+            - POSTGRES_USER=allocation
+            - POSTGRES_PASSWORD=passwd123
+            - POSTGRES_DB=allocation_db
+        volumes:
+            - db_volume:/var/lib/postgresql/data
+        ports:
+            - 5432:5432
+
+volumes:
+    db_volume:
