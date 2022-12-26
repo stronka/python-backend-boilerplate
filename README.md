@@ -48,5 +48,3 @@ curl localhost:5000/hello
 
 - Flask
 - Pytest
-
-- Locally
