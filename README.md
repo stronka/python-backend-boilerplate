@@ -24,6 +24,12 @@ To run local backend execute:
 make up
 ```
 
+Local backend can be verified by running:
+
+```commandline
+curl localhost:5000/hello
+```
+
 ## Tech stack
 
 - Flask
